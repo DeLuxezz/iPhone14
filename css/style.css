@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 a{
     cursor: pointer;
     text-decoration: none;
@@ -81,6 +85,10 @@ body{
 
 .menu_item:last-child{
     margin-right: 0;
+}
+
+.menu_link{
+    transition: 1s ease;
 }
 
 .btn{
@@ -301,6 +309,12 @@ body{
 
 .btn{
     order: 1;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
 }
 
 @media screen and (max-width: 1200px) {
