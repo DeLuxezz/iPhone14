@@ -47,15 +47,25 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
+}
+
+.menu,
+.logo_i,
+.phone_l,
+.footer_l{
+    width: 33.33%;
 }
 
 .menu{
     display: flex;
+    /* flex-grow: 1;
+    flex-basis: 0; */
 }
 
 .phone{
-    display: flex;
-    justify-content: flex-end;
+    /* flex-grow: 1;
+    flex-basis: 0; */
     text-align: right;
     font-size: 24px;
     line-height: 29px;
@@ -63,6 +73,10 @@ body{
 
 .menu_item{
     margin-right: 30px;
+}
+
+.menu_item:last-child{
+    margin-right: 0;
 }
 
 .headline{
@@ -245,6 +259,7 @@ body{
 
 .footer{
     background-color: #0A0A0A;
+    text-align: center;
 }
 
 .footer_inner{
