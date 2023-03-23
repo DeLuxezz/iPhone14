@@ -173,12 +173,13 @@ body{
 }
 
 .color_item img{
+    border-radius: 35px;
     margin-bottom: 20px;
 }
 
 .color_item img:hover{
     box-shadow: 0px 0px 0px 2px lightblue;
-    border-radius: 30px;
+    border-radius: 35px;
 }
 
 .color_item h3{
