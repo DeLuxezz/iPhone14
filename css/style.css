@@ -51,22 +51,18 @@ body{
 
 .menu{
     display: flex;
-    flex-grow: 1;
-    flex-basis: 0;
 }
 
 .phone{
     display: flex;
     justify-content: flex-end;
-    flex-grow: 1;
-    flex-basis: 0;
     text-align: right;
     font-size: 24px;
     line-height: 29px;
 }
 
 .menu_item{
-    padding-right: 30px;
+    margin-right: 30px;
 }
 
 .headline{
@@ -93,7 +89,6 @@ body{
 
 .headline_btn:hover{
     box-shadow: 0px 0px 0px 2px #490e84 inset;
-    /* border: 2px solid #490e84; */
     color: #490e84;
     background-color: #fff;
     transition: .2s ease;
@@ -250,11 +245,6 @@ body{
 
 .footer{
     background-color: #0A0A0A;
-}
-
-.footer_link{
-    flex-basis: 0;
-    flex-grow: 1;
 }
 
 .footer_inner{
@@ -503,7 +493,6 @@ body{
         flex-basis: auto;
         margin: 10px 0 20px;
         order: -1;
-        width: 100%;
     }
 
     .menu_item{
