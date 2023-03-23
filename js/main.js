@@ -5,7 +5,7 @@ btn.addEventListener('click', ()=>{
     nav.classList.toggle('menu_open');
 });
 
-const link = document.querySelector('.menu_link');
+const link = document.querySelector('.menu_item');
 
 link.addEventListener('click', ()=>{
     nav.classList.toggle('menu_open');
