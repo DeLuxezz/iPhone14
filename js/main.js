@@ -5,8 +5,10 @@ btn.addEventListener('click', ()=>{
     nav.classList.toggle('menu_open');
 });
 
-const link = document.querySelector('.menu_item');
+const link = document.querySelectorAll('.menu_link');
 
-link.addEventListener('click', ()=>{
+for (let i = 0; i < 3; i++ ) {
+link[i].addEventListener('click', ()=>{
     nav.classList.toggle('menu_open');
 });
+};
