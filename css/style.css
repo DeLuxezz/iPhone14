@@ -15,10 +15,11 @@ ul{
 }
 
 body{
-    font-family: 'Inter', sans-serif;
+    font: normal 14px/18px 'Inter' , sans-serif;
+    /* font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 18px; */
     color: #0A0A0A;
 }
 .header{
