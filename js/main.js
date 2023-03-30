@@ -7,6 +7,7 @@ btn.addEventListener('click', ()=>{
 
 const link = document.querySelectorAll('.menu_link');
 
+
 for (let i = 0; i < 3; i++ ) {
 link[i].addEventListener('click', ()=>{
     nav.classList.toggle('menu_open');
